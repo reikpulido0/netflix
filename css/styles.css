@@ -140,7 +140,7 @@ color: #fff;
     
 }
 
-.contenedor-titulo-controles{
+.contenedor-titulo-controles h3{
 
 color: #fff;
 font-size: 16px;
@@ -150,7 +150,7 @@ font-size: 16px;
 .contenedor-titulo-controles button{
 
     background: #fff;
-    height: 3px;
+    height: 3x;
     width: 10px;
     cursor: pointer;
     border: none;
@@ -221,7 +221,7 @@ font-size: 16px;
 
 }
 
- .peliculas-recomendadas .contenedor-principal .flecha-derecha:hover
+ .peliculas-recomendadas .contenedor-principal .flecha-derecha
 .peliculas-recomendadas .contenedor-principal .flecha-izquierda{
 
     left: 0;
@@ -235,6 +235,7 @@ font-size: 16px;
 
 
 /*----coruosel---*/
+
 
 .peliculas-recomendadas .contenedor-carousel{
 
@@ -252,13 +253,29 @@ font-size: 16px;
 
 }
 
+
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula{
 
-    width: 20%;
+    min-width:20%;
     box-shadow: 5px 5px 5px 20px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease all;
 
 }
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover{
+
+    transform: scale(1.2);
+    transform-origin: center;
+
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula img{
+
+    width: 100%;
+    vertical-align: top;
+
+}
+
  
 
 
